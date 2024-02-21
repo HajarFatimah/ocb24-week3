@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+
+}
+
+/* header {
+    padding: 16px 0px;
+} */
+
+.container {
+    background-color: #2A2C2E;
+    width: 1300px;
+    height: 96px;
+    margin: 20px auto;
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+
+    padding: 32px;
+
+}
+
+.container > .logo > img {
+    width: 200px;
+    height: 100px;
+    padding-left: 30px;
+
+}
+
+.container > .middle > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    list-style: none;
+    gap: 32px;
+    color: #ffffff60;
+}
+
+.container > .middle > ul > li.active {
+    color: #f4d867;
+
+}
+
+.container > .login {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    padding-right: 40px;
+    gap: 32px;
+
+}
+
+.container > .login > button {
+    all: unset;
+    background-color: #f4d867;
+    color: #2a2c2e;
+    padding: 8px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.banner {
+    background-color: #f4d867;
+    height: 60px;
+    color: #f4ba30;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+    font-size: 30px;
+    font-weight: 100px;
+}
+
+.banner > h2.active {
+    color: #2a2c2e;
+}
+
+main {
+background-color: #2a2c2e;
+}
+
+.container-middle {
+    /* width: 950px; */
+    color: white;
+    margin: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px 0px;
+    
+}
+
+.container-middle > .card {
+    height: 500px;
+    width: 300px;
+    background-color: white;
+    padding: 16px;
+    border-radius: 20px;
+
+}
+
+.container-middle > .card > img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20px;
+
+}
+
+.container-middle > .card > .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 12px;
+
+
+}
+
+.container-middle > .card > .content > p:first-child {
+    color:#2A2C2E;
+    font-size: 14px;
+
+}
+
+
+
+
